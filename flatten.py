@@ -8,6 +8,6 @@ def flatten(l):
         if is_i_list(i)==True:
             flatten(i)
         else:
-            lnew.append(i) # also append each value
+            lnew.append(i) # also append each object
 flatten(l)
 print(lnew)
